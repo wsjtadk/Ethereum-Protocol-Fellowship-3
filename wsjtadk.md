@@ -16,9 +16,10 @@ timezone: UTC+8
 
 <!-- Content_START -->
 
-### 2025.07.11
+### 2025.03.11
+这两天把北大肖臻老师的区块链基础完整看了一遍，虽然是比较基础的知识，也解决了部分一直存在的困惑。肖老师课程链接：https://www.bilibili.com/video/BV1Vt411X7JF?spm_id_from=333.788.player.switch&vd_source=6bfcc4ee48cc86cd0252f3b26adb0f52&p=23
+但是有个问题还是没能明白：交易收据树到底是存在block中还是节点本地的state中？有些地方说三棵树都在全节点本地，也有地方说只有世界树在本地，交易树与收据树在block body中，目前还没能在官网或epf.wiki中找到答案，后续可能只能通过go-ethereum代码寻找答案了，但是对go语言并不熟悉，学习之路仍重道远。
 
-笔记内容
 
 ### 2025.07.12
 
